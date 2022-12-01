@@ -23,13 +23,13 @@ ul {
 }
 
 /***wrapper maintain page content width***/
-#wrapper {
+.wrapper {
   animation: scale 0.4s ease both;
   padding: 1.5rem 0;
   margin: auto;
   width: 85%;
 }
-#container {
+.container {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -136,7 +136,7 @@ ul {
 
 /***responsive for desktop***/
 @media only screen and (min-width: 1000px) {
-  #wrapper {
+  .wrapper {
     width: 55%;
   }
 }
