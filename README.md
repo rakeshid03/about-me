@@ -2,7 +2,8 @@
 
 It's a clean Html, Css, JavaScript enabled one page personal portfolio website.
 
-## Demo 
+## Demo
+
 Click here to [`View`](https://rakeshid03.github.io/Personal-Portfolio/)
 
 ## Screenshots
@@ -15,4 +16,5 @@ Click here to [`View`](https://rakeshid03.github.io/Personal-Portfolio/)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/rakeshid03/Personal-Portfolio/blob/340a3320dc3b0994fb5bbfa2524c0c13621bbd18/LICENSE)
 
 ## Contributing
+
 Contributions are always welcome! 💙
