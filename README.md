@@ -1,10 +1,10 @@
 # Personal-Portfolio
 
-It's a clean Html, Css, JavaScript enabled one page personal portfolio website.
+This is a one-page personal portfolio website built using HTML, CSS, and JavaScript. It is a simple and clean design, with a focus on showcasing your existing social media following.
 
 ## Demo
 
-Click here to [`View`](https://rakeshid03.github.io/Personal-Portfolio/)
+You can see the live demo of the website by clicking [`here`](https://rakeshid03.github.io/Personal-Portfolio/)
 
 ## Screenshots
 
