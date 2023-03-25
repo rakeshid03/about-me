@@ -14,8 +14,7 @@ You can see the live demo of the website by clicking [`here`](https://rakeshid03
 
 ## Screenshots
 
-![mobile.png](https://i.postimg.cc/x10vpfcF/mobile.png)
-![laptop.png](https://i.postimg.cc/VsCWdZx4/laptop.png)
+![mobile.png](https://i.postimg.cc/7PRBK79C/site-ss.png)
 
 ## Customization
 
