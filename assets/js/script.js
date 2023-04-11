@@ -9,3 +9,17 @@ toggle.addEventListener("click", () => {
 function vibrate() {
   navigator.vibrate(6);
 }
+
+// Zoom in up effect add in every social media button one by one
+const socialMediaLinks = document.getElementsByClassName("social-media")[0].getElementsByTagName("a");
+let index = 0;
+
+function showLinkWithEffect() {
+  if (index < socialMediaLinks.length) {
+    socialMediaLinks[index].classList.add("zoom-in-up");
+    socialMediaLinks[index].style.display = 'block';
+    index++;
+    setTimeout(showLinkWithEffect, 400); // 400ms delay
+  }
+}
+showLinkWithEffect();
