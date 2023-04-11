@@ -9,7 +9,6 @@ body {
   width: 100%;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
-  user-select: none;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -144,7 +143,7 @@ ul {
 
 /* Add zoom in up effect in social media button*/
 .zoom-in-up {
-  animation: zoom-in-up 350ms ease;
+  animation: zoom-in-up 360ms ease;
 }
 
 @keyframes zoom-in-up {
