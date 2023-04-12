@@ -116,6 +116,39 @@ ul {
   line-height: 1.5rem;
 }
 
+/***Project section***/
+.projects {
+  width: 100%;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  border-bottom: 1.5px solid #0000001A;
+  padding: 0;
+  text-decoration: none;
+}
+
+.project i{
+  font-size: 2rem;
+  color: #26CAFF;
+}
+
+.project ul {
+  list-style-type: none;
+  line-height: 0.2rem;
+  margin-left: 0.8rem;
+}
+
+.project ul li {
+  word-wrap: break-word;
+  color: #000;
+}
+
+.project ul small {
+  color: #909090;
+}
+
 /*****All social media btn*****/
 .social-media {
   width: 100%;
