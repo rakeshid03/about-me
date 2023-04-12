@@ -109,8 +109,9 @@ ul {
   color: #4b4c4f;
   padding: 0.5rem;
 }
-.details span {
-  color: #0087b2;
+.details b {
+  color: #00445A;
+  letter-spacing: 1.3px;
 }
 .details .about {
   line-height: 1.5rem;
