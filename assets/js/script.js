@@ -19,7 +19,7 @@ function showLinkWithEffect() {
     socialMediaLinks[index].classList.add("zoom-in-up");
     socialMediaLinks[index].style.display = 'block';
     index++;
-    setTimeout(showLinkWithEffect, 400); // 400ms delay
+    setTimeout(showLinkWithEffect, 200); // 200ms delay
   }
 }
 showLinkWithEffect();
