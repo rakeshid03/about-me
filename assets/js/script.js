@@ -11,15 +11,13 @@ function vibrate() {
 }
 
 // Zoom in up effect add in every social media button one by one
-const socialMediaLinks = document.getElementsByClassName("social-media")[0].getElementsByTagName("a");
-let index = 0;
+const socialMediaLinks = document.querySelectorAll(".social-media div");
 
-function showLinkWithEffect() {
-  if (index < socialMediaLinks.length) {
-    socialMediaLinks[index].classList.add("zoom-in-up");
-    socialMediaLinks[index].style.display = 'block';
-    index++;
-    setTimeout(showLinkWithEffect, 200); // 200ms delay
-  }
-}
-showLinkWithEffect();
+// ON SCROLL REVEAL SMALL CARDS
+ScrollReveal().reveal(socialMediaLinks, {
+  duration: 1000,
+  opacity: 0,
+  distance: "30%",
+  origin: "bottom",
+  scale: 0.9
+});
