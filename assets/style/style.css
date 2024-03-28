@@ -136,15 +136,20 @@ ul {
 }
 
 .project ul {
+  overflow:hidden;
   list-style-type: none;
   line-height: 0.2rem;
   margin-left: 0.8rem;
 }
 
 .project ul li {
-  word-wrap: break-word;
+  overflow: hidden;
+  display:inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   color: #000;
 }
+
 
 .project ul small {
   color: #909090;
