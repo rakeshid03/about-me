@@ -19,5 +19,5 @@ ScrollReveal().reveal(socialMediaLinks, {
   opacity: 0,
   distance: "30%",
   origin: "bottom",
-  scale: 0.9
+  scale: 0.9,
 });

@@ -53,7 +53,7 @@ ul {
   font-size: 2rem;
   letter-spacing: 1.5px;
   font-weight: bold;
-  color: #00445A;
+  color: #00445a;
 }
 
 /*****Few personal details*****/
@@ -110,7 +110,7 @@ ul {
   padding: 0.5rem;
 }
 .details b {
-  color: #00445A;
+  color: #00445a;
   letter-spacing: 1.3px;
 }
 .details .about {
@@ -125,24 +125,28 @@ ul {
 .project {
   display: flex;
   align-items: center;
-  border-bottom: 1.5px solid #0000001A;
+  border-bottom: 1.5px solid #0000001a;
   padding: 0;
   text-decoration: none;
 }
 
-.project i{
+.project i {
   font-size: 2rem;
-  color: #26CAFF;
+  color: #26caff;
 }
 
 .project ul {
+  overflow: hidden;
   list-style-type: none;
   line-height: 0.2rem;
   margin-left: 0.8rem;
 }
 
 .project ul li {
-  word-wrap: break-word;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   color: #000;
 }
 
@@ -170,7 +174,7 @@ ul {
   gap: 0.6rem;
 }
 .social-media div:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #343b45;
 }
 
