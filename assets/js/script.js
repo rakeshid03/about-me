@@ -21,3 +21,6 @@ ScrollReveal().reveal(socialMediaLinks, {
   origin: "bottom",
   scale: 0.9,
 });
+
+// on load name effect 
+setTimeout(() => document.querySelector('.name').classList.add('loaded'), 500);
