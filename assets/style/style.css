@@ -56,6 +56,35 @@ ul {
   color: #00445a;
 }
 
+/**On load name effect**/
+.name>span {
+  display: inline-block;
+  overflow: hidden;
+  transition: .2s transform
+}
+
+.name>span span {
+  display: inline-block;
+  transition: .5s transform cubic-bezier(.34, 1.56, .64, 1);
+}
+.name>span:nth-child(odd) {
+  transform: translateY(50%);
+}
+.name>span:nth-child(odd) span {
+  transform: translateY(-100%);
+}
+.name>span:nth-child(even) {
+  transform: translateY(-50%);
+}
+.name>span:nth-child(even) span {
+  transform: translateY(100%);
+}
+
+.name.loaded>span,
+.name.loaded>span span {
+  transform: translateY(0);
+}
+
 /*****Few personal details*****/
 .info-box {
   width: 100%;
