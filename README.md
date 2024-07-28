@@ -11,7 +11,7 @@ This is a one-page personal about me website built using HTML, CSS, and JavaScri
 
 ## Demo
 
-You can see the live demo of the website by clicking [`here`](rakeshid03.github.io/about-me/)
+You can see the live demo of the website by clicking [`here`](https://rakeshid03.github.io/about-me/)
 
 ## Screenshots
 
