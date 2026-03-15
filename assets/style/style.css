@@ -154,9 +154,12 @@ ul {
 .project {
   display: flex;
   align-items: center;
-  border-bottom: 1.5px solid #0000001a;
   padding: 0;
   text-decoration: none;
+}
+
+.project:not(:last-child) {
+      border-bottom: 1px solid #e5e7eb;
 }
 
 .project i {
