@@ -47,6 +47,7 @@ ul {
 .picture img {
   height: 9rem;
   width: 9rem;
+  object-fit: cover;
 }
 .name {
   padding: 1rem 0;
